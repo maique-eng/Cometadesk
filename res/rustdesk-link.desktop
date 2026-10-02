@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=CometaDesk
+Name=RustDesk
 NoDisplay=true
-MimeType=x-scheme-handler/cometadesk;x-scheme-handler/rustdesk;
-TryExec=cometadesk
-Exec=cometadesk %u
-Icon=cometadesk
+MimeType=x-scheme-handler/rustdesk;
+TryExec=rustdesk
+Exec=rustdesk %u
+Icon=rustdesk
 Terminal=false
 Type=Application
 StartupNotify=false
-StartupWMClass=cometadesk
+StartupWMClass=rustdesk

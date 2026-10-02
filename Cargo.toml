@@ -1,11 +1,11 @@
 [package]
-name = "cometadesk"
+name = "rustdesk"
 version = "1.5.0"
-authors = ["Cometadesk <info@rustdesk.com>"]
+authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "CometaDesk Remote Desktop"
-default-run = "cometadesk"
+description = "RustDesk Remote Desktop"
+default-run = "rustdesk"
 rust-version = "1.75"
 
 [lib]

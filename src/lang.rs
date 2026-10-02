@@ -251,11 +251,11 @@ pub fn translate_locale(name: String, locale: &str) -> String {
             s = s.replace("{}", &value);
         }
         if !crate::is_rustdesk() {
-            let app_name = crate::get_app_name();
             if s.contains("RustDesk")
                 && !name.starts_with("upgrade_rustdesk_server_pro")
                 && name != "powered_by_me"
             {
+                let app_name = crate::get_app_name();
                 if !app_name.contains("RustDesk") {
                     s = s.replace("RustDesk", &app_name);
                 } else {
@@ -274,12 +274,6 @@ pub fn translate_locale(name: String, locale: &str) -> String {
                         // It's very unlikely to reach here.
                         // Skip replacement to avoid incorrect result.
                     }
-                }
-            }
-            if s.contains("rustdesk") && name != "powered_by_me" {
-                let app_name_lower = app_name.to_lowercase();
-                if !app_name_lower.contains("rustdesk") {
-                    s = s.replace("rustdesk", &app_name_lower);
                 }
             }
         }
