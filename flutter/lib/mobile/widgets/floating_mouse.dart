@@ -13,7 +13,7 @@ const int _kDotCount = 60;
 const double _kDotAngle = 2 * pi / _kDotCount;
 final Color _kDefaultColor = Colors.grey.withOpacity(0.7);
 final Color _kDefaultHighlightColor = Colors.white24.withOpacity(0.7);
-final Color _kTapDownColor = Colors.blue.withOpacity(0.7);
+final Color _kTapDownColor = Colors.red.withOpacity(0.7);
 const double _baseMouseWidth = 112.0;
 const double _baseMouseHeight = 138.0;
 const double _kShowPressedScale = 1.2;
@@ -1086,7 +1086,7 @@ class DottedCirclePainter extends CustomPainter {
       ..color = Colors.grey.shade400
       ..style = PaintingStyle.fill;
     final pointerPaint = Paint()
-      ..color = Colors.blue
+      ..color = Colors.red
       ..style = PaintingStyle.fill;
 
     const dotRadius = 2.5;

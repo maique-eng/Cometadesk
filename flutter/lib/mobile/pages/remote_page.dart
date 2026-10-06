@@ -1231,7 +1231,7 @@ void showOptions(
     final numColorSelected = Colors.white;
     final numColorUnselected = isDarkTheme ? Colors.grey : Colors.black87;
     // We can't use `Theme.of(context).primaryColor` here, the color is:
-    // - light theme: 0xff2196f3 (Colors.blue)
+    // - light theme: 0xff2196f3 (Colors.red)
     // - dark theme: 0xff212121 (the canvas color?)
     final numBgSelected =
         Theme.of(context).colorScheme.primary.withOpacity(0.6);

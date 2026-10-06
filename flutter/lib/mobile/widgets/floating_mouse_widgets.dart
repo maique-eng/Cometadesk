@@ -27,7 +27,7 @@ const double _kLeftRightButtonHeight = 40;
 const double _kBorderWidth = 1;
 final Color _kDefaultBorderColor = Colors.white.withOpacity(0.7);
 final Color _kDefaultColor = Colors.black.withOpacity(0.4);
-final Color _kTapDownColor = Colors.blue.withOpacity(0.7);
+final Color _kTapDownColor = Colors.red.withOpacity(0.7);
 final Color _kWidgetHighlightColor = Colors.white.withOpacity(0.9);
 const int _kInputTimerIntervalMillis = 100;
 

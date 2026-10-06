@@ -159,7 +159,7 @@ class ChatPage extends StatelessWidget implements PageShape {
                         final isOwnMessage = message.user.id.isBlank!;
                         return defaultMessageDecoration(
                           color:
-                              isOwnMessage ? MyTheme.accent : Colors.blueGrey,
+                              isOwnMessage ? MyTheme.accent : Colors.redGrey,
                           borderTopLeft: 8,
                           borderTopRight: 8,
                           borderBottomRight: isOwnMessage ? 2 : 8,
