@@ -396,6 +396,10 @@ static const Color accent = Color(0xFFD32F2F);
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(8),
             ),
+            focusedBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(8),
+              borderSide: BorderSide(color: Colors.black87, width: 1.5),
+            ),
           )
         : null,
     textTheme: const TextTheme(
@@ -450,7 +454,7 @@ static const Color accent = Color(0xFFD32F2F);
         style:
             MenuStyle(backgroundColor: MaterialStatePropertyAll(Colors.white))),
     colorScheme: ColorScheme.light(
-        primary: Colors.red, secondary: accent, background: grayBg),
+        primary: Colors.black87, secondary: accent, background: grayBg),
     popupMenuTheme: PopupMenuThemeData(
         color: Colors.white,
         shape: RoundedRectangleBorder(
@@ -493,6 +497,10 @@ static const Color accent = Color(0xFFD32F2F);
             isDense: true,
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(8),
+            ),
+            focusedBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(8),
+              borderSide: BorderSide(color: Colors.white70, width: 1.5),
             ),
           )
         : null,
@@ -558,7 +566,7 @@ static const Color accent = Color(0xFFD32F2F);
         style: MenuStyle(
             backgroundColor: MaterialStatePropertyAll(Color(0xFF121212)))),
     colorScheme: ColorScheme.dark(
-      primary: Colors.red,
+      primary: Colors.black,
       secondary: accent,
       background: Color(0xFF24252B),
     ),
