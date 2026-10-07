@@ -1415,7 +1415,7 @@ Color str2color2(String str, {List<int> existing = const []}) {
   Map<String, Color> colorMap = {
     "red": Colors.red,
     "green": Colors.green,
-    "blue": Colors.red,
+    "blue": Colors.black87,
     "orange": Colors.orange,
     "purple": Colors.purple,
     "grey": Colors.grey,
