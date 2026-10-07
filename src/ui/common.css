@@ -277,7 +277,7 @@ header caption {
   }
 
   button.window#close:hover {
-    background: #F82600;
+    background: #D32F2F;
   }
 
   button.window#close:hover div {
@@ -422,7 +422,7 @@ menu li:hover {
 menu li.line-through,
 menu li.line-through :hover {
   text-decoration-line: line-through;
-  color: red;
+  color: #D32F2F;
 }
 
 #tags {
@@ -521,7 +521,7 @@ div#msgbox div.set-password input {
 }
 
 div#msgbox #error {
-  color: red;
+  color: #D32F2F;
 }
 
 div.user-session .title {
