@@ -1,41 +1,38 @@
 html {
   var(accent): #D32F2F;
   var(button): #D32F2F;
-  var(gray-bg): #F8F8F8;
-  var(bg): #FFFFFF;
-  var(border): #E0E0E0;
+  var(gray-bg): #f8f8f8;
+  var(bg): white;
+  var(border): #dddddd;
   var(hover-border): #000000;
   var(text): #000000;
   var(placeholder): #888888;
   var(lighter-text): #555555;
   var(light-text): #222222;
-  var(menu-hover): #F0F0F0;
-  var(dark-red): #A72145;
-  /* Cores antigas substituídas pela paleta Preto/Branco/Vermelho */
+  var(menu-hover): #eeeeee;
+  var(dark-red): #D32F2F;
   var(dark-yellow): #333333;
   var(dark-blue): #000000;
   var(green-blue): #111111;
   var(gray-blue): #222222;
-  var(blue-green): #333333;
-  var(light-green): #EFEFEF;
-  var(dark-green): #D32F2F;
-  /* Usado nos nomes do chat, agora vermelho */
-  var(blood-red): #F82600;
-  var(gray-bg-osx): rgba(255, 255, 255, 0.9);
+  var(blue-green): #000000;
+  var(light-green): #f0f0f0;
+  var(dark-green): #000000;
+  var(blood-red): #D32F2F;
+  var(gray-bg-osx): rgba(255, 255, 255, 0.75);
 }
 
 html.darktheme {
-  /* Modo escuro inverte: 80% Preto, 15% Branco, 5% Vermelho */
-  var(bg): #0F0F0F;
-  var(gray-bg): #1A1A1A;
-  var(menu-hover): #2A2A2A;
-  var(border): #333333;
+  var(bg): #000000;
+  var(gray-bg): #111111;
+  var(menu-hover): #222222;
+  var(border): #444444;
 
-  var(text): #FFFFFF;
-  var(light-text): #CCCCCC;
-  var(lighter-text): #999999;
+  var(text): white;
+  var(light-text): #cccccc;
+  var(lighter-text): #aaaaaa;
   var(placeholder): #666666;
-  var(gray-bg-osx): rgba(15, 15, 15, 0.9);
+  var(gray-bg-osx): rgba(0, 0, 0, 0.75);
 }
 
 body {
@@ -137,22 +134,20 @@ textarea:empty {
   }
 
   .slider {
-    background: #333333;
+    background: #bbb;
     border: white solid 4px;
   }
 
-  /* Scrollbar preta */
   .base:disabled {
     background: transparent;
   }
 
   .slider:hover {
-    background: #D32F2F;
+    background: grey;
   }
 
-  /* Vermelho ao interagir */
   .slider:active {
-    background: #000000;
+    background: grey;
   }
 
   .base {
@@ -177,7 +172,7 @@ textarea:empty {
 div.password svg:not(.checkmark) {
   padding-left: 1em;
   size: 16px;
-  color: #000000;
+  color: #ddd;
   background: none;
   padding-top: 4px !important;
 }
@@ -205,7 +200,7 @@ header {
 
 @media platform=="OSX" {
   header {
-    background: linear-gradient(top, #FFFFFF, #F0F0F0);
+    background: linear-gradient(top, #E4E4E4, #D1D1D1);
   }
 }
 
@@ -282,8 +277,7 @@ header caption {
   }
 
   button.window#close:hover {
-    background: #D32F2F;
-    /* Mantém fechar a vermelho */
+    background: #F82600;
   }
 
   button.window#close:hover div {
@@ -342,7 +336,6 @@ div.chatbox div.send input {
 
 div.chatbox div.name {
   color: color(dark-green);
-  /* Assumiu o tom Vermelho na zona das variáveis globais */
 }
 
 div.chatbox div.right-side div {
@@ -392,7 +385,7 @@ menu div.separator {
   height: 1px;
   width: *;
   margin: 5px 0;
-  background: color(border);
+  background: color(gray-bg);
   border: none;
 }
 
@@ -429,7 +422,7 @@ menu li:hover {
 menu li.line-through,
 menu li.line-through :hover {
   text-decoration-line: line-through;
-  color: color(accent);
+  color: red;
 }
 
 #tags {
@@ -528,7 +521,7 @@ div#msgbox div.set-password input {
 }
 
 div#msgbox #error {
-  color: color(accent);
+  color: red;
 }
 
 div.user-session .title {
