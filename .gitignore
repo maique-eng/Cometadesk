@@ -15,6 +15,10 @@ src/version.rs
 cert.pfx
 *.bak
 *png
+!flutter/assets/icon*.png
+!flutter/assets/logo*.png
+!res/icon.png
+!res/*x*.png
 *svg
 *jpg
 sciter.dll

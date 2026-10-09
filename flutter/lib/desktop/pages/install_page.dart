@@ -136,8 +136,14 @@ class _InstallPageBodyState extends State<_InstallPageBody>
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(translate('Installation'),
-                  style: Theme.of(context).textTheme.headlineMedium),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  loadIcon(32).marginOnly(right: 12),
+                  Text(translate('Installation'),
+                      style: Theme.of(context).textTheme.headlineMedium),
+                ],
+              ),
               Row(
                 children: [
                   Text('${translate('Installation Path')}:')
