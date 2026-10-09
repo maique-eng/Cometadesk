@@ -1,11 +1,11 @@
 [package]
-name = "rustdesk"
+name = "cometadesk"
 version = "1.5.0"
-authors = ["rustdesk <info@rustdesk.com>"]
+authors = ["cometadesk <info@cometadesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "RustDesk Remote Desktop"
-default-run = "rustdesk"
+description = "CometaDesk Remote Desktop"
+default-run = "cometadesk"
 rust-version = "1.75"
 
 [lib]
@@ -255,9 +255,9 @@ webrtc-sctp = { git = "https://github.com/rustdesk-org/webrtc", rev = "49c89bd8d
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2026 Purslane Tech Pte. Ltd. All rights reserved."
-ProductName = "RustDesk"
-FileDescription = "RustDesk Remote Desktop"
-OriginalFilename = "rustdesk.exe"
+ProductName = "CometaDesk"
+FileDescription = "CometaDesk Remote Desktop"
+OriginalFilename = "cometadesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"

@@ -120,11 +120,11 @@ if __name__ == '__main__':
                       help="omit the executable from the blob, for a template whose "
                            "executable ships in the package instead")
     (options, args) = parser.parse_args()
-    folder = options.folder or './rustdesk'
+    folder = options.folder or './cometadesk'
     output_folder = os.path.abspath(options.output_folder or './')
 
     if not options.executable:
-        options.executable = 'rustdesk.exe'
+        options.executable = 'cometadesk.exe'
     if not options.executable.startswith(folder):
         options.executable = folder + '/' + options.executable
     # Note: the simple check `options.executable.startswith(folder)` is incorrect.
