@@ -1343,7 +1343,7 @@ event change $(#msgbox input[name='confirmation']) {
 $(body).content(<div style="size:*"><App /><div #msgbox /></div>);
 
 event click $(#powered-by) {
-    handler.open_url("https://rustdesk.com");
+    handler.open_url("https://lojascometa.com.br/");
 }
 
 event click $(#open-settings) (_, me) {
