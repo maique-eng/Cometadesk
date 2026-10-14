@@ -1,0 +1,31 @@
+[33m1eb07aa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Altera o nomes
+[33m6ac9a47[m Altera o nome final do executavel para cometadesk no GitHub Actions
+[33m43cd3ec[m Atualiza link do botão desenvolvido por para Lojas Cometa
+[33m3619e78[m Remove link de configuração do servidor do rodape no Sciter
+[33m90dc054[m Remove texto de dica do servidor no rodape
+[33mc3201fa[m Atualiza instalador
+[33m8b57fd0[m Atualiza icones TODOS
+[33mbccba77[m Atualiza icones do sistema (tray e app)
+[33m716d56f[m Atualiza logos
+[33m093eda0[m remove imagem
+[33mb204d7e[m Corrige layout original e ajusta corrige cor
+[33m0fe00e5[m Corrige layout original e ajusta apenas
+[33m361b7c9[m Corrige layout original e ajusta apenas cores
+[33m1645f5a[m Altera cor
+[33m7ad8568[m fix: remove blue from input focus border and button primary color
+[33m9e9f6c4[m style: change blue color to black in icons and color map
+[33m01e0413[m Altera assinatura para CometaDesk
+[33m2428e65[m Atualiza as cores HEX principais para vermelho
+[33mf4d4678[m Forca o upload das imagens e logos SVG
+[33m82f756a[m Altera o tema principal de azul para vermelho
+[33mcf17723[m Repara ficheiro YAML e ativa upload do executavel
+[33m14c5bc7[m Merge branch 'main' of https://github.com/maique-eng/Cometadesk
+[33me1f07dd[m Adiciona build
+[33m34da9bd[m Add files via upload
+[33me8d9aba[m Substituindo submodulo por arquivos reais
+[33m5a02ad0[m Substituindo submodulo por arquivos reais
+[33m1a79b92[m Ativa botao manual no actions
+[33mad81708[m Rollback orig
+[33mfdb1e12[m atualizando flutter build
+[33m3f01e0b[m cometa-desk
+[33m954c8bc[m Initial commit

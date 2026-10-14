@@ -3749,7 +3749,7 @@ Widget loadPowered(BuildContext context) {
       child: Opacity(
           opacity: 0.5,
           child: Text(
-            ("Desenvolvido por CometaDesk"),
+            ("Desenvolvido por Lojas Cometa"),
             overflow: TextOverflow.clip,
             style: Theme.of(context)
                 .textTheme
